@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.2.0"
+gem "toml-rb", "~> 2.0"
+
+group :jekyll_plugins do
+  gem "jekyll-watch", :git => "https://github.com/cloudcannon/jekyll-watch", :branch => "master"
+  gem 'jekyll-postcss', :git => "https://github.com/bglw/jekyll-postcss", :branch => "main"
+  gem "jekyll-bookshop", ">= 2.0.0.pre.alpha"
+  gem "bookshop-array-structures", ">= 2.0.0.pre.alpha"
+end
