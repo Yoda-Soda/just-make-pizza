@@ -6,7 +6,7 @@
   "scripts": {
     "bookshop": "cd site && bookshop -p 7001 -b ../components --fluidns s",
     "bookbuild": "cd site && bookshop -b ../components -o assets/js/bookshop-dev.js --fluidns s",
-    "jekyll": "cd site && bundle exec jekyll serve --port 6095 --trace --unpublished",
+    "jekyll": "cd site && bundle exec jekyll serve --port 7000 --trace --unpublished",
     "start": "run-p bookshop jekyll",
     "install": "cd site && bundle install"
   },
