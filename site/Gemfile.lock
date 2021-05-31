@@ -1,10 +1,31 @@
+GIT
+  remote: https://github.com/bglw/jekyll-postcss
+  revision: 9dcc0828676116bb253ef0d5e918521d61f7f860
+  branch: main
+  specs:
+    jekyll-postcss (0.4.0)
+
+GIT
+  remote: https://github.com/cloudcannon/jekyll-watch
+  revision: 328940540e279e77a83eb60ad7c3a94a848f8821
+  branch: master
+  specs:
+    jekyll-watch (2.2.1)
+      listen (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bookshop-array-structures (2.0.0.pre.alpha.4)
+      dry-inflector (>= 0.1, < 1.0)
+      jekyll (>= 3.7, < 5.0)
+      toml-rb (>= 2.0, < 3.0)
+    citrus (3.0.2)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
+    dry-inflector (0.2.0)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -29,14 +50,10 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-feed (0.15.1)
+    jekyll-bookshop (2.0.0.pre.alpha.4)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-seo-tag (2.7.1)
-      jekyll (>= 3.8, < 5.0)
-    jekyll-watch (2.2.1)
-      listen (~> 3.0)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -46,10 +63,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -63,18 +76,20 @@ GEM
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    toml-rb (2.0.1)
+      citrus (~> 3.0, > 3.0)
     unicode-display_width (1.7.0)
 
 PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  bookshop-array-structures (>= 2.0.0.pre.alpha)
   jekyll (~> 4.2.0)
-  jekyll-feed (~> 0.12)
-  minima (~> 2.5)
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  jekyll-bookshop (>= 2.0.0.pre.alpha)
+  jekyll-postcss!
+  jekyll-watch!
+  toml-rb (~> 2.0)
 
 BUNDLED WITH
    2.2.17
