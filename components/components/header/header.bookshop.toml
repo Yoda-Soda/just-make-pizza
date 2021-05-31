@@ -1,0 +1,8 @@
+[component]
+array_structures = ["conent_blocks"]
+label = "Info"
+description="Generic info section"
+icon = "info_outline"
+tags=["content"]
+
+[props]
