@@ -1,0 +1,11 @@
+body {
+    font-family: 'Inter', sans-serif;
+	--s-design-min: 414;
+	--s-design-max: 1440;
+}
+
+#bookshop-generated-render-root {
+	width: 100%;
+	max-width: 1059px;
+	margin: 0 auto;
+}

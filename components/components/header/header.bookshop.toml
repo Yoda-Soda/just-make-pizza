@@ -1,8 +1,12 @@
 [component]
 array_structures = ["conent_blocks"]
-label = "Info"
+label = "Header"
 description="Generic info section"
 icon = "info_outline"
 tags=["content"]
 
 [props]
+
+[props.logo]
+image = "/assets/logo.svg"
+alt = "Pizza Logo"
