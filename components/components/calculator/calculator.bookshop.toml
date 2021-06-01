@@ -1,0 +1,20 @@
+[component]
+array_structures = ["conent_blocks"]
+label = "Calculator"
+description="Generic info section"
+icon = "info_outline"
+tags=["content"]
+
+[props]
+
+[props.main-img]
+image = "/assets/bottom-pizza.svg"
+alt = "Pizza on a board"
+
+[[props.calc-var]]
+heading = "Pizza Calculator"
+inputbox = "3"
+
+[[props.calc-var]]
+heading = "Water%"
+inputbox = "71%"
