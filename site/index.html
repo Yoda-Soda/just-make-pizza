@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Static Site Components
+title: Static Site Componens
 page_sections:
   - slug: header
     bg_color: light
@@ -10,16 +10,28 @@ page_sections:
         logo:
           image: /assets/logo.svg
           alt: 'Pizza logo'
-        links:
-          - title: TOML
-            href: '#toml-anatomy'
-          - title: Usage
-            href: '#usage'
-          - title: Deep Dive
-            href: '#links'
-      - _bookshop_name: header
-        title: Static Site Components
-        bg: true
+      - _bookshop_name: calculator
+        main-img:
+            image: /assets/pizza_bottom.svg
+            alt: "pizza on a board"
+        heading:
+            text: Static Site Components
+        calc-var:
+            heading: Pizza Calculator
+            inputbox: 3
+            type: "number"
+            min: 0
+            max: 10
+            value: 1
+            class: num-pizza
+        calc-h2o:
+            heading: Pizza Calculator
+            inputbox: 3
+            type: "number"
+            min: 50
+            max: 70
+            value: 55
+            class: num-pizza
 ---
 
 <div class="l-page">

@@ -1,0 +1,20 @@
+<div class="calc">
+    <div class="container">
+        <img class="btm-pizza" src="{{include.main-img.image}}" alt="{{include.main-img.alt}}">
+        <h2>{{include.heading.text}}</h2>
+        <div>
+            <h3>{{include.calc-var.heading}}</h3>
+            <input type="{{include.calc-var.type}}" name="{{include.calc-var.heading}}"
+                class="{{include.calc-var.class}}" min="{{include.calc-var.min}}" max="{{include.calc-var.max}}"
+                value="{{include.calc-var.value}}">
+        </div>
+        <div>
+            <h3>{{include.calc-h2o.heading}}</h3>
+            <div class="input-percentage">
+                <input type="{{include.calc-h2o.type}}" name="{{include.calc-h2o.heading}}"
+                    class="{{include.calc-h2o.class}}" min="{{include.calc-h2o.min}}" max="{{include.calc-h2o.max}}"
+                    value="{{include.calc-h2o.value}}">
+            </div>
+        </div>
+    </div>
+</div>

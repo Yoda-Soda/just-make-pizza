@@ -1,20 +1,35 @@
 [component]
 array_structures = ["conent_blocks"]
 label = "Calculator"
-description="Generic info section"
+description="Section for calculator inputs"
 icon = "info_outline"
 tags=["content"]
 
 [props]
 
 [props.main-img]
-image = "/assets/bottom-pizza.svg"
+image = "/assets/pizza_bottom.svg"
 alt = "Pizza on a board"
 
-[[props.calc-var]]
+[props.heading] 
+text= "Pizza Calculator"
+
+[props.calc-var]
 heading = "Pizza Calculator"
 inputbox = "3"
+class = "num-pizza"
+type = "number"
+min = "0"
+max = "10"
+value = "1"
 
-[[props.calc-var]]
-heading = "Water%"
-inputbox = "71%"
+[props.calc-h2o]
+heading = "Water %"
+inputbox = "3"
+class = "num-pizza"
+type = "number"
+min = 50
+max = 70
+value = 57
+
+
