@@ -6,6 +6,7 @@ icon = "info_outline"
 tags=["content"]
 
 [props]
+theme.select = ["Purple", "White", "Pink"]
 
 [props.main-img]
 image = "/assets/pizza_bottom.svg"
