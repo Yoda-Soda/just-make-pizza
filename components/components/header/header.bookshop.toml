@@ -1,5 +1,5 @@
 [component]
-array_structures = ["conent_blocks"]
+array_structures = ["content_blocks"]
 label = "Header"
 description="Generic info section"
 icon = "info_outline"

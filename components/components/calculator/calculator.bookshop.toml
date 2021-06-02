@@ -1,5 +1,5 @@
 [component]
-array_structures = ["conent_blocks"]
+array_structures = ["content_blocks"]
 label = "Calculator"
 description="Section for calculator inputs"
 icon = "info_outline"
