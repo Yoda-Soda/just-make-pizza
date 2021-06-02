@@ -7,14 +7,6 @@ tags=["content"]
 
 [props]
 
-[[props.toppings]]
-name = "Pepperoni"
-price_number = 1000
-
-[[props.toppings]]
-name = "Tomato"
-price_number = 700
-
 [props.main-img]
 image = "/assets/pizza_bottom.svg"
 alt = "Pizza on a board"
