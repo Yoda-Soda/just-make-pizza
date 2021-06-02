@@ -2,7 +2,11 @@
     <ul>
         {% for incredient in include.incredients %}
         <li>
-            <span id="{{incredient.name}}">300</span><span>{{incredient.measure-unit}} </span><span>{{incredient.name}}</span>
+            <label class="check-container"><span id="{{incredient.name}}">300</span><span>{{incredient.measure-unit}} </span><span>{{incredient.name}}</span>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+
         </li>
         {% endfor %}
     </ul>
