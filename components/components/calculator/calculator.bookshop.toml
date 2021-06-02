@@ -2,7 +2,7 @@
 array_structures = ["content_blocks"]
 label = "Calculator"
 description="Section for calculator inputs"
-icon = "info_outline"
+icon = "calculate"
 tags=["content"]
 
 [props]

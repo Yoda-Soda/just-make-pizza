@@ -1,69 +1,66 @@
 h2 {
-    font-size: var(--s-36-48);
-    color: var(--text);
-    margin: 0 auto;
-    padding: 50px 20px;
-    font-weight: 700;
+  font-size: var(--s-36-48);
+  color: var(--text);
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-weight: 700;
 }
 
 .btm-pizza {
-    height: var(--s-100-300);
-    width: auto;
-    margin: 50px;
-
+  height: var(--s-100-300);
+  width: auto;
+  margin: 50px;
 }
 
 .num-pizza {
-    display: block;
-    padding: 5px;
-    font-size: 72px;
-    max-width: 200px;
-    text-align: right;
-    margin: 30px;
-    
+  display: block;
+  padding: 5px;
+  font-size: 72px;
+  max-width: 200px;
+  text-align: right;
+  margin: 30px;
 }
 
 .input-percentage {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
-.input-percentage::after{
-    position: absolute;
-    content: "%";
-    top: 40px;
-    font-size: 70px;
-    right: 35px;
-    transition: all .05s ease-in-out;
-    
+.input-percentage::after {
+  position: absolute;
+  content: "%";
+  top: 40px;
+  font-size: 70px;
+  right: 35px;
+  transition: all 0.05s ease-in-out;
 }
 
 .input-percentage input {
-    text-align: left;
-    min-width: 145px;
+  text-align: left;
+  min-width: 145px;
 }
+
 div:hover::after,
 div:focus-within::after {
-    right: 53px;
+  right: 53px;
 }
 
 h3 {
-    text-align: center;
-    font-size: 24px;
-    color: var(--highlight);
-    font-weight: 400;
+  text-align: center;
+  font-size: 24px;
+  color: var(--highlight);
+  font-weight: 400;
 }
 
 .calc {
-    background-color: var(--bgdark);
-    width: 100%;
+  background-color: var(--bgdark);
+  width: 100%;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 @media screen {
-    
 }

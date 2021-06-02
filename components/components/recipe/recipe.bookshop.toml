@@ -1,0 +1,20 @@
+[component]
+array_structures = ["content_blocks"]
+label = "Recipe"
+description="Section that shows calculated incredient values"
+icon = "fastfood"
+tags=["content"]
+
+[props]
+
+[[props.incredients]]
+name = "flour"
+measure-unit = "g" 
+
+[[props.incredients]]
+name = "water"
+measure-unit = "ml" 
+
+[[props.incredients]]
+name = "yeast"
+measure-unit = "g" 

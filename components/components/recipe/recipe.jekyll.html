@@ -1,0 +1,9 @@
+<div class="incredient">
+    <ul>
+        {% for incredient in include.incredients %}
+        <li>
+            <span id="{{incredient.name}}">300</span><span>{{incredient.measure-unit}} </span><span>{{incredient.name}}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

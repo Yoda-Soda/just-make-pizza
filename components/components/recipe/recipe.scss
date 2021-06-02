@@ -1,0 +1,27 @@
+li span:nth-child(1),
+span:nth-child(2) {
+  color: var(--highlight);
+}
+ul {
+  padding: 10px 90px;
+}
+
+li {
+  padding: 12px 0;
+  margin: 22px 0;
+  font-weight: 700;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+li::before {
+  position: absolute;
+  content: url(/assets/tick.svg);
+  width: 51px;
+  height: 51px;
+  border-radius: 100%;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  left: 10px;
+}

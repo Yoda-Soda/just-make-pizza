@@ -2,7 +2,7 @@
 array_structures = ["content_blocks"]
 label = "Header"
 description="Generic info section"
-icon = "info_outline"
+icon = "psychology"
 tags=["content"]
 
 [props]
